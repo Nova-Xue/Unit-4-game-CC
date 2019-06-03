@@ -1,0 +1,6 @@
+.text-center{
+    position: absolute;
+    left: 20%;
+    top: 0;
+    z-index: -1;
+}
