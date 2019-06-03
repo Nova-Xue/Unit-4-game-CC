@@ -19,10 +19,12 @@ $(document).ready(function () {
         return guessNum;
     }
     function reset() {
+        guessNum=0;
         $("#guessNum").text(getRandomGuess());
         $("#guessCurrent").text("");
         $(".result").text("");
         guessCurrent = 0;
+
         isResulted = false;
         for (var i = 0; i < numArray.length; i++) {
             $(".crys" + i + "-num").html(numArray[i]);
